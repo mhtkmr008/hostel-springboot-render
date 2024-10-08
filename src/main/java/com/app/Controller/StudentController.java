@@ -21,7 +21,7 @@ import com.app.service.StudentService;
 
 @RestController
 @RequestMapping("/student")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://hostel-render.onrender.com")
 
 public class StudentController {
 	

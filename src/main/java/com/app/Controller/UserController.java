@@ -13,7 +13,7 @@ import com.app.service.UserService;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="https://hostel-render.onrender.com")
 public class UserController {
 	
 	@Autowired
